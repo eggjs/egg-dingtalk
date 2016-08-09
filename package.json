@@ -1,0 +1,54 @@
+{
+  "name": "egg-dingtalk",
+  "version": "0.0.1",
+  "description": "egg plugin for dingtalk",
+  "eggPlugin": {
+    "name": "dingtalk"
+  },
+  "keywords": [
+    "egg",
+    "plugin",
+    "dingtalk"
+  ],
+  "dependencies": {
+    "node-dingtalk": "^0.2.0"
+  },
+  "devDependencies": {
+    "autod": "^2.7.0",
+    "egg": "^0.0.8",
+    "egg-bin": "^1.2.0",
+    "egg-ci": "^1.0.3",
+    "egg-mock": "^0.0.3",
+    "eslint": "^3.2.2",
+    "eslint-config-egg": "^3.1.0",
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^3.0.0",
+    "power-assert": "^1.4.1",
+    "supertest": "^2.0.0",
+    "thunk-mocha": "^1.0.4"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint --ext js . --fix",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "ci": {
+    "version": "4, 6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eggjs/egg-dingtalk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eggjs/egg/issues"
+  },
+  "homepage": "https://github.com/eggjs/egg-dingtalk#readme",
+  "author": "TZ <atian25@qq.com>",
+  "license": "MIT"
+}
