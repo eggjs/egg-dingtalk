@@ -16,17 +16,14 @@
   },
   "devDependencies": {
     "autod": "^2.7.1",
-    "egg": "^0.9.0",
+    "egg": "^0.10.0",
     "egg-bin": "^2.0.2",
     "egg-ci": "^1.1.0",
     "egg-mock": "^2.3.1",
-    "eslint": "^3.14.1",
+    "eslint": "^3.15.0",
     "eslint-config-egg": "^3.2.0",
-    "intelli-espower-loader": "^1.0.1",
     "mocha": "^3.0.0",
-    "power-assert": "^1.4.1",
-    "supertest": "^3.0.0",
-    "thunk-mocha": "^1.0.4"
+    "supertest": "^3.0.0"
   },
   "engines": {
     "node": ">=6.0.0"

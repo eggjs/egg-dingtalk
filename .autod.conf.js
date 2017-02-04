@@ -7,9 +7,11 @@ module.exports = {
     'test',
     'benchmark',
   ],
+  dep: [
+    'node-dingtalk',
+  ],
   devdep: [
     'egg',
-    'node-dingtalk',
     'egg-ci',
     'egg-bin',
     'autod',
