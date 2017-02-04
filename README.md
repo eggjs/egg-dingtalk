@@ -30,9 +30,10 @@ $ npm i egg-dingtalk --save
 
 ## Usage
 
-```javascript
+```js
 // {app_root}/config/plugin.js
 exports.dingtalk = {
+  enable: true,
   package: 'egg-dingtalk',
 };
 
@@ -43,7 +44,7 @@ exports.list = function* () {
 ```
 
 ## Configuration
-```javascript
+```js
 // {app_root}/config/config.default.js
 exports.dingtalk = {
   corpid: '',

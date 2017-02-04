@@ -10,10 +10,8 @@ module.exports = {
    */
   get dingtalk() {
     if (!this[DINGTALK]) {
-      const options = Object.assign({
-        urllib: this.urllib,
-      }, this.config.dingtalk);
-
+      const options = Object.assign({}, this.config.dingtalk);
+      options.urllib = this.httpclient;
       this[DINGTALK] = new DingTalk(options);
     }
     return this[DINGTALK];

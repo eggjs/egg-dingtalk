@@ -1,3 +1,0 @@
---require thunk-mocha
---require intelli-espower-loader
---timeout 30000

@@ -12,4 +12,7 @@ exports.dingtalk = {
   host: 'https://oapi.dingtalk.com',
   corpid: '',
   corpsecret: '',
+  requestOpts: {
+    timeout: 10000,
+  },
 };
