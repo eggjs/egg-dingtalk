@@ -1,6 +1,6 @@
 {
   "name": "egg-dingtalk",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "egg plugin for dingtalk",
   "eggPlugin": {
     "name": "dingtalk"
