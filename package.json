@@ -12,21 +12,19 @@
     "dingtalk"
   ],
   "dependencies": {
-    "node-dingtalk": "^1.0.0"
+    "node-dingtalk": "^2.1.0"
   },
   "devDependencies": {
-    "autod": "^2.8.0",
-    "egg": "^1.6.1",
-    "egg-bin": "^4.0.5",
+    "autod": "^3.0.1",
+    "egg": "^2.9.1",
+    "egg-bin": "^4.8.0",
     "egg-ci": "^1.8.0",
-    "egg-mock": "^3.8.0",
-    "eslint": "^4.3.0",
-    "eslint-config-egg": "^5.0.0",
-    "mocha": "^3.0.0",
-    "supertest": "^3.0.0"
+    "egg-mock": "^3.17.3",
+    "eslint": "^5.2.0",
+    "eslint-config-egg": "^7.0.0"
   },
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=8.0.0"
   },
   "scripts": {
     "test": "npm run lint -- --fix && npm run test-local",
@@ -37,7 +35,7 @@
     "autod": "autod"
   },
   "ci": {
-    "version": "6, 8"
+    "version": "8, 10"
   },
   "repository": {
     "type": "git",

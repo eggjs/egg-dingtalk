@@ -38,8 +38,8 @@ exports.dingtalk = {
 };
 
 // {app_root}/app/controller/test.js
-exports.list = function* () {
-  this.body = yield this.app.dingtalk.user.list('1', true);
+exports.list = async ctx => {
+  ctx.body = await ctx.dingtalk.user.list('1', true);
 };
 ```
 
