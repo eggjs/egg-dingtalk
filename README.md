@@ -49,6 +49,8 @@ exports.list = async ctx => {
 exports.dingtalk = {
   corpid: '',
   corpsecret: '',
+  host: '',
+  enableContextLogger: '',
 };
 ```
 
