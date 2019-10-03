@@ -16,7 +16,8 @@
     "dingtalk"
   ],
   "dependencies": {
-    "node-dingtalk": "^2.1.0"
+    "node-dingtalk": "^2.1.0",
+    "snyk": "^1.230.5"
   },
   "devDependencies": {
     "autod": "^3.0.1",
@@ -36,7 +37,9 @@
     "cov": "egg-bin cov",
     "lint": "eslint .",
     "ci": "npm run lint && npm run cov",
-    "autod": "autod"
+    "autod": "autod",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "ci": {
     "version": "8, 10"
@@ -50,5 +53,6 @@
   },
   "homepage": "https://github.com/eggjs/egg-dingtalk#readme",
   "author": "TZ <atian25@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
